@@ -1,0 +1,50 @@
+.parent{
+    margin: 0 auto;
+    width: 460px;
+    height:296px;
+}
+.semi_transparent_bg
+{
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=50);
+    opacity: 0.8;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 460px;
+    height:296px;
+    border-radius:3px;
+    z-index:1;
+}
+.signup_parent
+{
+    margin: 0 auto;
+    width: 775px;
+    height:662px;
+}
+.signup_semi_transparent
+{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=50);
+    opacity: 0.8;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 775px;
+    height:662px;
+    border-radius:3px;
+    z-index:1;
+}
+.title-page{
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.4;
+    margin: 0 auto;
+    background-color: #737373;
+    border-radius:3px;
+}
+.centered{
+    position: relative;
+    width:100px;
+    height:100px;
+}
